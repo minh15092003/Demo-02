@@ -27,16 +27,24 @@ const Details = () => {
 
                 <img class="avt-left" src="https://i.pinimg.com/736x/4a/4c/29/4a4c29807499a1a8085e9bde536a570a.jpg" alt="" />
                 {users.map((user) => (
-                    <div>
+                    <div className='tist-cs'>
+                        <div class='text-basic'>
+                            <h>Chức vụ: {user.position}</h>
+                        </div>
+                        <div class='text-basic'>
+                            <h>sđt: {user.numberphone}</h>
+                        </div>
+                        <div class='text-basic'>
+                            <h>Email: {user.email}</h>
+                        </div>
+                        
                         <div class='text-basic'>
                             <h>{user.fullname}</h>
                         </div>
-                     
-                    </div>
-
-
+                        
+                     </div>
                 ))}
-                <div id='kawasaki' >
+                <div id='kawasaki'>
                     <h5 class="fust-tunst">Thông tin cơ bản</h5>
                 </div>
                 {users.map((user) => (

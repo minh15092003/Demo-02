@@ -18,7 +18,13 @@
   align-items: center;
   min-height: 100vh;
 }
- 
+.fust-tunst{
+  margin-top: 50px;
+margin-left: 20px;
+}
+#kawasaki{
+margin-top: 50px;
+}
 .row {
   width: 100%;
   border-radius: 10px;
@@ -345,6 +351,7 @@ ion-icon {
 
 /* detail */
 .lable-text {
+  margin-top: 10px;
   margin-left: 20px;
   font-weight:700;
 }
@@ -375,14 +382,17 @@ b, strong {
   border-radius: 20px;
   max-width: 150px;
   height: 150px;
+  margin-left: 20px;
 }
 
 .text-basic {
-  margin: -130px 150px 90px;
+  margin: -130px 170px 70px;
   font-size: 18px;
   padding: 0px 30px;
 }
-
+.tist-cs{
+  margin-top: 100px;
+}
 .row-detail {
   width: 100%;
   background: #fff;
@@ -428,16 +438,13 @@ b, strong {
       margin-left: auto;
   }
 
-  .avt-left {
+  /* .avt-left {
       width: 70px;
       height: 70px;
-      border-radius: 8px;
-  }
+      border-radius: 10px;
+  } */
 
-  .text-basic {
-      margin: -70px 60px 30px;
-      font-size: 15px;
-  }
+  
 }
 #nghedo{
   text-decoration: none;
@@ -1032,6 +1039,20 @@ b, strong {
   border-radius: 5px;
   background: #fff;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+.hr{
+  margin: -4px;
+}
+.navbar-nav li  {
+  margin-left: 30px;
+ font-size: 90%;
+ word-spacing: 5px;
+ border-radius: 1px;
+ border: 1px solid #e5fafd;
+ 
+}
+.navbar-nav li:hover{
+  background-color: #c6eff5;
 }
 
 .team .member .member-img {

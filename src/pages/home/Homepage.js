@@ -17,7 +17,7 @@ const Home = () => {
             <div class="row">
               <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
                 <div id='home-page'>
-                  <h1 data-aos="fade-up"  >Chào mừng bạn đến với Arum</h1>
+                  <h1 data-aos="fade-up"  >Chào mừng bạn đến với Tanca</h1>
                 </div>
 
                 <h2 data-aos="fade-up" data-aos-delay="400" className='Func' >Ứng dụng quản lí nhân sự </h2>
